@@ -12,7 +12,7 @@ export async function unsubscribeUser(
   email: string
 ): Promise<{ success: boolean; message: string }> {
   // In a real app, this should come from environment variables.
-  const adminEmail = "site.owner@example.com";
+  const adminEmail = "hm19071@ues.edu.sv";
 
   console.log(
     `An unsubscription request was received for ${email}. A notification will be sent to ${adminEmail}.`
